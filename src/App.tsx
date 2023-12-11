@@ -21,7 +21,7 @@ export default function App() {
   const sunColor = toggled ? "gray" : "yellow"; // Gray when night, yellow when day
 
   return (
-    <div className="flex items-center justify-center flex-col gap-20 min-h-screen w-full relative">
+    <div className="flex items-center p-2 justify-center flex-col gap-20 min-h-screen w-full relative">
       <h1 className="font-bold text-6xl z-10">Toggle Button</h1>
       <motion.div
         className="w-[400px] h-[140px] flex justify-start border rounded-full p-[10px] cursor-pointer z-10 relative overflow-hidden"
